@@ -6,38 +6,38 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Ken Kutyn
+title: Solutions Consultant | Product Manager | Experimenter | Founder
+email: kennethkutyn@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: 
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+website: 
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+twitter_username: kennethmarshall
+github_username:  kennethkutyn
+stackoverflow_username: 
+dribbble_username: 
+facebook_username: 
+flickr_username: 
+instagram_username: 
+linkedin_username: kennethkutyn
+xing_username: 
+pinterest_username: 
+youtube_username: 
+orcid_username: 
+googlescholar_username: 
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+- title: 
+  icon: 
+  url: 
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,15 +50,19 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  SOLUTIONS CONSULTING: 12 years experience as an SC (8 in B2B SaaS), 2 time President’s Club winner, 5
+  within-company promotions, developed and launched a SaaS app for solutions consultants 
+  
+  BUSINESS APTITUDE: MBA degree, experience in value consulting engagements
+  
+  LEADERSHIP: Mentored 4 aspiring presales professionals through PreSales Collective, completed Amplitude Leadership Development Program, onboarded and coached junior SC colleagues
+  
+  INTERNATIONAL EXPERIENCE: Lived and worked in Canada, UK, USA, Netherlands and Singapore; mapped to AEs covering 26+ countries
+  
+  DOMAIN EXPERTISE: 6 years experience selling analytics, experimentation, feature flagging and personalization to Product, Data and Engineering teams; acted as Product Lead at 2 early stage start-ups; spoke at 8+ conferences and panels on product management and experimentation
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
   - title: Projects # Title for the section
@@ -67,50 +71,94 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        title: Deckbuildr
+        link: www.deckbuildr.io
+        link_text: deckbuildr.io
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+            I co-founded a microSaaS that enables sales people to quickly generate a custom pitch deck for an upcoming customer meeting. 
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Rightly
+        link: www.rightly.co.uk
+        link_text: rightly.co.uk
+        additional_links:
+        quote: >
+        description: | # this will include new lines to allow paragraphs
+            I was founding PM for a personal data startup enabling EU data citizens to protect their rights according to GDPR. We obtained seed and Series A funding before I transitioned to an advisor role.  
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: PreSales Collective
+        link: 
+        link_text: 
+        additional_links:
+        quote: >
+        description: | # this will include new lines to allow paragraphs
+            Mentored 4 early-career professionals to transition into presales, supporting their coursework and providing coaching and guidance on presales competencies and the job search. PreSales Academy and PreSales Foundations put a special emphasis on making tech jobs accessible to diverse backgrounds 
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Toast Masters - Competent Communicator
+        link: 
+        link_text: 
+        additional_links:
+        quote: >
+        description: | # this will include new lines to allow paragraphs
+            Public speaking certificate issued by Toastmasters International for successful completion of ten prepared speeches.
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: Amplitude
+        sub_title: Senior Solutions Consultant
+        caption: Feb 2021 to present
+        link: www.amplitude.com
         quote: >
-          Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          Worked with Product, PMM, Sales, Marketing and Enablement on GTM strategy for launch of Experiment. Enabled SCs on Experiment through training, playbooks, templates and 1:1 deal coaching sessions. As the senior SC in the EMEA North and APJ regions, acted as a mentor to junior colleagues and a key partner to sales leadership on deal strategy.
+      - layout: right
+        title: Optimizely
+        sub_title: Lead Solutions Consultant
+        caption: Dec 2016 to Jan 2021
+        link: www.optimizely.com
+        quote: >
+        description: | # this will include new lines to allow paragraphs
+          Guided customers and prospects through technical validation of Optimizely’s client-side and server-side feature flagging and experimentation platforms, including PoCs, workshops, and demos. Partnered with sales leadership to drive deal strategy and forecasting accuracy. Attached to greater than $6M in ARR over first 3 years. Received rapid promotions to Senior and Lead Solutions Engineer in first 3 years. Qualified for President’s Club twice as top SC in region.
+      - layout: right
+        title: Oracle
+        sub_title: Staff Solutions Consultant
+        caption: April 2014 to October 2015
+        link: www.oracle.com
+        quote: >
+        description: | # this will include new lines to allow paragraphs
+          Assisted Oracle customers in transitioning from traditional on-premises BI and Analytics, to a modern cloud-based platform. Acted as a leader for sales team, including running numerous internal trainings for Account Executives on the benefits of cloud technology.
+      - layout: right
+        title: S-FRAME Software
+        sub_title: Senior Application Engineer
+        caption: April 2014 to October 2015
+        link: www.oracle.com
+        quote: >
+        description: | # this will include new lines to allow paragraphs
+          Owned customer-facing activities for Vancouver office, including pre-sales, onboarding, success, and support. Opened satellite office in London and took responsibility for all go to market strategy and operations.
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-
+        title: Maastricht School of Management
+        sub_title: Master's of Business Administration
+        caption: 2018-2020
+        quote: 
+        description:  # this will include new lines to allow paragraphs
+      - layout: top-right
+        title: University of British Columbia
+        sub_title: Bachelor of Applied Science (Civil Engineering)
+        caption: 2007-2011
+        quote: 
+        description:  # this will include new lines to allow paragraphs
+ 
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
@@ -138,3 +186,4 @@ exclude : [
   "scripts/",
   "docker-compose.yml",
   ]
+

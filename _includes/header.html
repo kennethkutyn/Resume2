@@ -1,3 +1,5 @@
+<script src="ldclient.min.js"></script>
+
 <div class="container header-container">
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
@@ -97,13 +99,7 @@
             </a>
           </li>
         {%- endif -%}
-        {% for link in site.additional_links %}
-          <li>
-            {% include a.html href=link.url class="button button--sacnite button--round-l" %}
-              <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
-            </a>
-          </li>
-        {% endfor %}
+
       </ul>
 
       {%- if site.email -%}
