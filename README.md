@@ -12,16 +12,16 @@ Clone this repo into a directory of your choosing.
 
 ### Step 2
 In your terminal, run 
-'''
+```
 gem install bundler:2.1.4
 bundle install
-'''
+```
 
 ### Step 3
 Launch server:
-'''
+```
 bundle exec jekyll serve
-'''
+```
 
 ### Step 4 
 You should now be able to see the Resume site at localhost:4000
