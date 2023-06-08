@@ -31,6 +31,8 @@ Replace the LD API key in index.js line 12
 Create a feature flag in the LD interface and replace the key in index.js line 22
 Enable client-side availabilty in the LD UI.
 Turn the flag on with any desired allocation %.
+You can change the user ID in index.js line 9 to see the flag value change. 
+The "About Me" section header will change depending on the flag value.
 
 
 For any help installing Jekyll Gems, see [here](https://jekyllrb.com/docs/installation/).
