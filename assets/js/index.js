@@ -1,3 +1,4 @@
+document.body.style.display = "none";
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
   document.body.classList.add("dark");
 }
@@ -30,4 +31,6 @@ client.on('ready', () => {
     document.querySelector("#about-me").innerHTML = 'About Me (flag is false)';
 
   }
+  document.body.style.display = "block";
+
 });
