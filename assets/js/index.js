@@ -1,4 +1,4 @@
-document.body.style.display = "none";
+//document.body.style.display = "none";
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
   document.body.classList.add("dark");
 }
@@ -25,12 +25,12 @@ client.on('ready', () => {
   client.setStreaming(true); 
 
   if(flagValue == true){
-    document.querySelector("#about-me").innerHTML = 'About Me (flag is true)';
+    //document.querySelector("#about-me").innerHTML = 'About Me (flag is true)';
   }
   if(flagValue == false){
-    document.querySelector("#about-me").innerHTML = 'About Me (flag is false)';
+    //document.querySelector("#about-me").innerHTML = 'About Me (flag is false)';
 
   }
-  document.body.style.display = "block";
+  //document.body.style.display = "block";
 
 });
